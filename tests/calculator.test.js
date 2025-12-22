@@ -17,3 +17,5 @@ describe('Calculator', () => {
         expect(divide(10, 2)).toBe(5);
     });
 });
+test('multiplies 6 * 2 to equal 12', () => {
+        expect(multiply(4, 3)).toBe(12);
